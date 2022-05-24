@@ -1,0 +1,42 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    height: 280px;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #ddd;
+    border-radius: 5px;
+
+}
+input[type=text]{
+    height: 10px;
+    border-radius: 4px;
+    background-color: #555;
+    color: #fff;
+    padding: 3px 12px;
+    font-weight: 600;
+
+}
+
+input[type=button]{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+}
+input[type=button]:hover{
+    background-color: limegreen;
+}
+input[type=reset]{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+}
+input[type=reset]:hover{
+    background-color: rebeccapurple;
+}
